@@ -44,17 +44,14 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
-
   return (
     <nav className="h-[5rem] w-screen flex items-center justify-between px-[12.5rem] max-xl:px-[5rem] max-sm:px-[5rem] bg-[#0B0B0B] sticky top-0 left-0">
       <h1 className="text-4xl font-bold text-[#8B8E99] hover:cursor-pointer">
         Mohid
       </h1>
-      <div>
-        
-      </div>
+      <div></div>
       <ul className="flex gap-12 items-center max-lg:hidden leading-[150%]">
-        <li
+        <li href="#hero-section"
           className="relative transition-all duration-200 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-1.5 before:rounded-full
              before:opacity-0 before:transition-all before:duration-300 before:bg-[#c5c8d1] hover:before:w-full hover:before:opacity-100 font-bold text-[#8B8E99] text-lg hover:cursor-pointer"
         >
@@ -76,13 +73,7 @@ const Navbar = () => {
           className="relative transition-all duration-200 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-1.5 before:rounded-full
              before:opacity-0 before:transition-all before:duration-300 before:bg-[#c5c8d1] hover:before:w-full hover:before:opacity-100 font-bold text-[#8B8E99] text-lg hover:cursor-pointer"
         >
-          Contact
-        </li>
-        <li
-          className="relative transition-all duration-200 before:content-[''] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-1.5 before:rounded-full
-             before:opacity-0 before:transition-all before:duration-300 before:bg-[#c5c8d1] hover:before:w-full hover:before:opacity-100 font-bold text-[#8B8E99] text-lg hover:cursor-pointer"
-        >
-          About
+          Opinions
         </li>
       </ul>
       <div onClick={handleNav} className="block lg:hidden">
@@ -106,10 +97,7 @@ const Navbar = () => {
             Recent Products
           </li>
           <li className="font-bold pb-4 text-[#8B8E99] text-lg hover:cursor-pointer">
-            Contact
-          </li>
-          <li className="font-bold pb-4 text-[#8B8E99] text-lg hover:cursor-pointer">
-            About
+            Opinions
           </li>
         </ul>
       </div>

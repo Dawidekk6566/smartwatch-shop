@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import Image from "next/image";
 
@@ -12,7 +11,7 @@ function AiOutlineSearch() {
 
 const Hero = () => {
   return (
-    <div className="min-h-screen flex justify-between max-md:flex-col items-center px-[12.5rem] max-xl:px-[5rem] pt-[3rem] max-sm:px-[5rem] pb-[8rem] bg-[#0B0B0B]">
+    <div className="hero-section min-h-screen flex justify-between max-md:flex-col items-center px-[12.5rem] max-xl:px-[5rem] pt-[3rem] max-sm:px-[5rem] pb-[8rem] bg-[#0B0B0B]">
       <div className="flex-col">
         <h1 className="text-[#FFF] font-bold leading-[125%] text-[4rem] max-[320px]:text-[3rem] w-full">
           Discover Most Suitable Watches
